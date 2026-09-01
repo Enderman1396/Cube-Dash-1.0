@@ -1,0 +1,1276 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HP" at "2026-08-23T08:01:58.8310415Z"
+Built from '6000.5/staging' branch; Version is '6000.5.2f1 (eb73d3b415a1) revision 15430611'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) Professional' Language: 'tr' Physical Memory: 16003 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-08-23T08:01:58Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Unity.exe
+-projectpath
+C:\Users\HP\İlk projem
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-HP
+-hubSessionId
+c664d671-bbcd-47e7-b493-3ec404d807bb
+-accessToken
+uM85utzDDV3r6WxYNhmjR3lSHpVNYYK2sBpSbbsi910011f
+Successfully changed project path to: C:\Users\HP\İlk projem
+C:/Users/HP/İlk projem
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [30100]  Target information:
+
+Player connection [30100]  * "[IP] 192.168.1.107 [Port] 55504 [Flags] 2 [Guid] 136501914 [EditorId] 136501914 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NCR4VUN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30100] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30100] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-9792" after 2.6 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-HP"
+[Licensing::IpcConnector] LicenseClient-HP channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-HP-6000.5.2 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 26116)
+Starting IPC server.
+Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-HP-6000.5.2, press Ctrl-C to exit.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HP-6000.5.2" at "2026-08-23T08:02:24.5395503Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 26116, path: "C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              e180686629e441df94ee679c39f0fe62
+  Correlation Id:          e095fbf4db15e1ec5937e20be89073cc
+  External correlation Id: 5581798667880491229
+  Machine Id:              8OI4i3iraXNlx67dgp2SBC6twsU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-HP-6000.5.2" (connect: 14.77s, validation: 2.25s, handshake: 0.08s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HP-6000.5.2-notifications" at "2026-08-23T08:02:26.8697912Z"
+[Licensing::Module] Connected to LicensingClient (PId: 26116, launch time: 0.14, total connection time: 17.10s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token uM85utzDDV...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968458499749-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.03
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 28.30s
+[Licensing::Module] Licensing is initialized (took 19.28s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Active build profile path: `Assets/Settings/Build Profiles/Windows.asset`
+Artifact Garbage Collection - Removed 1 unused hashed content files
+Got setting from build profile YAML, name `m_BuildTarget`, value `19`
+Got setting from build profile YAML, name `m_Subtarget`, value `2`
+Refreshing native plugins compatible for Editor in 2.39 ms, found 0 plugins.
+Initialize engine version: 6000.5.2f1 (eb73d3b415a1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/HP/İlk projem/Assets
+[D3D12 Device Filter] Vendor Name: Intel
+[D3D12 Device Filter] Device Name: Intel(R) UHD Graphics 620
+[D3D12 Device Filter] Driver Version: 31.0.101.2130
+[D3D12 Device Filter] Feature Level: 12.1
+[D3D12 Device Filter] Graphics Memory: 8001 MB
+[D3D12 Device Filter] Processor Count: 8
+[D3D12 Device Filter] Device Type: Integrated
+[D3D12 Device Filter] D3D12 API denied by user filter: {"Vendor": "Intel", "Device Type:": Integrated}
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     8001 MB
+    Driver:   31.0.101.2130
+Built-in Resource not available at this time. May cause unexpected or untested fall-back logic.
+Built-in Resource not available at this time. May cause unexpected or untested fall-back logic.
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 1.333097 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.401 seconds
+Domain Reload Profiling: 10050ms
+	BeginReloadAssembly (1251ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (722ms)
+	initialDomainReloadingComplete (1975ms)
+	LoadAllAssembliesAndSetupDomain (4669ms)
+		LoadAssemblies (1209ms)
+		AnalyzeDomain (4410ms)
+			TypeCache.Refresh (4406ms)
+				TypeCache.ScanAssembly (3641ms)
+	FinalizeReload (1410ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (318ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (470ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 57 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.13 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.ai.navigation@42d896194035)
+    com.unity.collab-proxy@2.12.4 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.collab-proxy@0b1559bcd34e)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.19.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83)
+    com.unity.timeline@1.8.12 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.timeline@8cd8509afae5)
+    com.unity.visualscripting@1.9.11 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.visualscripting@8bed5ad90189)
+    com.unity.searcher@4.9.4 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.searcher@d45a78918735)
+    com.unity.burst@1.8.29 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.burst@6bb9aca3ef38)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.render-pipelines.universal@17.5.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.render-pipelines.universal@748d7458cc62)
+    com.unity.test-framework@1.7.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.test-framework@1405238725ab)
+    com.unity.ugui@2.5.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.ugui@3d1ea40b73ef)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.ext.nunit@44f7d31723bd)
+    com.unity.render-pipelines.core@17.5.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.render-pipelines.core@9fe9377312a8)
+    com.unity.shadergraph@17.5.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.shadergraph@2df19e8719bc)
+    com.unity.render-pipelines.universal-config@17.5.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.render-pipelines.universal-config@fdda01c80fe3)
+    com.unity.collections@6.5.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.collections@a43cabe808ca)
+    com.unity.mathematics@1.4.0 (location: C:\Users\HP\İlk projem\Library\PackageCache\com.unity.mathematics@981956d94fb6)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.04 seconds
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\HP\�lk projem
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 223.8498ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/HP/İlk projem
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@6bb9aca3ef38\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 1600.9629ms
+ExitCode: 0 Duration: 2s548ms
+[722/915    1s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (2.44 seconds), 1 items updated, 915 evaluated
+AssetDatabase: script compilation time: 5.217993s
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 170.90 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.92 ms, found 4 plugins.
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 11.624 seconds
+Domain Reload Profiling: 18763ms
+	BeginReloadAssembly (730ms)
+		DisableScriptedObjects (76ms)
+		CreateAndSetChildDomain (260ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (127ms)
+	LoadAllAssembliesAndSetupDomain (6223ms)
+		LoadAssemblies (5597ms)
+		AnalyzeDomain (556ms)
+			TypeCache.Refresh (407ms)
+				TypeCache.ScanAssembly (382ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (11627ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (322ms)
+			ProcessInitializeOnLoadAttributes (7046ms)
+			ProcessInitializeOnLoadMethodAttributes (481ms)
+			AfterProcessingInitializeOnLoad (15ms)
+		AwakeInstancesAfterBackupRestoration (58ms)
+Starting new worker id: 0 with log in C:/Users/HP/İlk projem/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=a4b720f58add7d84c9be31f3588f2ddc): Total: 47.671 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=34752 ms
+		Asset DB Callback time: managed=161 ms, native=94 ms
+		Scripting: domain reloads=1, domain reload time=7258 ms, compile time=5223 ms, other=181 ms
+		Project Asset Count: scripts=1317, non-scripts=2302
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 98.868ms
+	ApplyChangesToAssetFolders: 1.587ms
+	Scan: 733.956ms
+	Collect global state as custom dependencies: 9.954ms
+	CategorizeScriptCompilationAssets: 4573.426ms
+	ProcessAssetsWithTransientArtifactChanges: 187.582ms
+	CategorizeAssets: 104.886ms
+	CompileScripts: 5222.809ms
+	ImportOutOfDateAssets: 11940.955ms (11833.174ms without children)
+		ReloadNativeAssets: 0.067ms
+		UnloadImportedAssets: 1.766ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.257ms
+		ImportSchedulerStart: 104.684ms
+	PostProcessAllAssets: 161.839ms
+		MonoPostProcessAllAssets: 161.694ms
+			SyncVS.PostprocessSyncProject 77.254ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 34.858ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 8.139ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 4.523ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.731ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 1.330ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.798ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.686ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.658ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.457ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.387ms
+	UnloadStreamsBegin: 6.735ms
+	PersistCurrentRevisions: 0.268ms
+	GenerateScriptTypeHashes: 4.243ms
+	GenerateScriptTypeSerializationHashes: 7.773ms
+	Untracked: 24612.456ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Scanning for USB devices : 4.114ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Cube Dash
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            252.577 ms
+	Integration:            736.799 ms
+	Integration of assets:  11.915 ms
+	Thread Wait Time:       -0.087 ms
+	Total Operation Time:   1001.204 ms
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 6445 unused Assets / (5.2 MB). Loaded Objects now: 8285.
+Memory consumption went from 421.8 MB to 416.6 MB.
+Total: 48.084600 ms (FindLiveObjects: 2.197800 ms CreateObjectMapping: 7.295400 ms MarkObjects: 26.070800 ms  DeleteObjects: 12.203800 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+Worker ready: AssetImportWorkerHW0 0
+[LAYOUT] About to save layout C:\Users\HP\İlk projem\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/HP/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Input initialized.
+[Project] Loading completed in 126.860 seconds
+	Project init time: 				121.600 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		21.860 seconds
+		Asset Database init time: 		1.889 seconds
+		Global illumination init time: 	0.018 seconds
+		Assemblies load time: 			33.041 seconds
+		Unity extensions init time: 	0.095 seconds
+		Asset Database refresh time: 	47.671 seconds
+	Scene opening time: 			4.852 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1787472245608,"processId":9792,"projectLoad":126.8602509,"projectInit":121.600407,"templateInit":0.0,"packageManagerInit":21.86032,"assetDatabaseInit":1.8890054,"globalIlluminationInit":0.0179093,"assembliesLoad":33.0413296,"unityExtensionsInit":0.0945256,"assetDatabaseRefresh":47.6714809,"sceneOpening":4.8518076}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1787472245608,"processId":9792,"editorVersion":"6000.5.2f1 (eb73d3b415a1)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=e51e859af7610164ba45c3e637fb1073): Total: 0.280 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/HP/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.059s, timestamps: [127.215 - 127.274]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "uM85utzD"... (expires: 2026-08-23T10:00:50Z)
+[Licensing::Client] Successfully resolved entitlement details
+Starting new worker id: 1 with log in C:/Users/HP/İlk projem/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8a38ed999c33ac18720a8343374ed2e2') in 0.3582215 seconds
+UPID Received '7c1804be-488f-4534-9c1c-f650c7ee91f2'.
+Worker ready: AssetImportWorkerHW1 1
+TrimDiskCacheJob: Current cache size 0mb
+[Licensing::Client] Successfully resolved entitlement details
+Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/7c1804be-488f-4534-9c1c-f650c7ee91f2", HTTP error code 401
+.Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/7c1804be-488f-4534-9c1c-f650c7ee91f2", HTTP error code 401
+.Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/7c1804be-488f-4534-9c1c-f650c7ee91f2", HTTP error code 401
+.Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/7c1804be-488f-4534-9c1c-f650c7ee91f2", HTTP error code 401
+.Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/7c1804be-488f-4534-9c1c-f650c7ee91f2", HTTP error code 401
+.[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "iCFWXcLU"... (expires: 2026-08-23T12:07:40Z)
+UPID Received '7c1804be-488f-4534-9c1c-f650c7ee91f2'.
+Scanning for USB devices : 15.914ms
+Asset Pipeline Refresh (id=b4ee32102975cfd45ae161f3de8c3431): Total: 0.043 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Scanning for USB devices : 2.380ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Worker0] Imported GUID: cf7a2e3540c06d74c8620a18f27af243 - Path: Assets/Kodlama/EndTrigger.cs - Importer: PreviewImporter -> (ImportResultId: '229b29df158d496359898ce54085d018') in 0.0247022 seconds
+
+[main 2026-08-23T11:18:21.412Z] StorageMainService: creating application shared storage
+[main 2026-08-23T11:18:21.802Z] [shared storage] Creating shared storage database at 'c:\Users\HP\.vscode-shared\sharedStorage\state.vscdb' (wasCreated: false)
+[main 2026-08-23T11:18:21.807Z] [shared storage] Initializing fallback application storage (path: c:\Users\HP\AppData\Roaming\Code\User\globalStorage\state.vscdb)
+[main 2026-08-23T11:18:21.868Z] [shared storage] Fallback application storage initialized with 114 items
+[main 2026-08-23T11:18:21.871Z] update#setState idle
+[main 2026-08-23T11:18:23.197Z] AgentHostProcessManager: agent host started
+[main 2026-08-23T11:18:25.064Z] [AgentHost:stderr] (node:6164) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+
+Unknown channel: agentHostClientProxy
+(node:33188) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+Unknown channel: agentHostClientProxy
+Asset Pipeline Refresh (id=4da3ef32a2033c040a5130c7c7807456): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Unknown channel: agentHostClientProxy
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Unknown channel: agentHostClientProxy
+Unknown channel: agentHostClientProxy
+[main 2026-08-23T11:18:51.954Z] update#setState checking for updates
+[main 2026-08-23T11:18:52.031Z] update#setState idle
+Begin MonoManager ReloadAssembly
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (17.1 MB). Loaded Objects now: 9386.
+Memory consumption went from 0.61 GB to 0.60 GB.
+Total: 38.103800 ms (FindLiveObjects: 0.860300 ms CreateObjectMapping: 1.380500 ms MarkObjects: 27.977100 ms  DeleteObjects: 7.883300 ms)
+
+Refreshing native plugins compatible for Editor in 56.00 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.072 seconds
+Domain Reload Profiling: 6600ms
+	BeginReloadAssembly (1168ms)
+		DisableScriptedObjects (209ms)
+		CreateAndSetChildDomain (626ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (285ms)
+	LoadAllAssembliesAndSetupDomain (1034ms)
+		LoadAssemblies (893ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (10ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (4073ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (1071ms)
+			ProcessInitializeOnLoadMethodAttributes (271ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (1302ms)
+No restricted APIs configured; Validation skipped.
+Checking 23 assemblies for restricted APIs found 0 usage(s) in 11 ms
+Refreshing native plugins compatible for Editor in 3.27 ms, found 4 plugins.
+
+Asset Pipeline Refresh (id=88085d311e5cebb42bc26f970af67053): Total: 36.025 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=4800 ms
+		Asset DB Callback time: managed=1628 ms, native=1867 ms
+		Scripting: domain reloads=1, domain reload time=27727 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1317, non-scripts=2302
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.962ms
+	ApplyChangesToAssetFolders: 0.514ms
+	Collect global state as custom dependencies: 15.831ms
+	ProcessAssetsWithTransientArtifactChanges: 298.766ms
+	CategorizeAssets: 63.112ms
+	CompileScripts: 1.617ms
+	ImportOutOfDateAssets: 4192.862ms (4146.833ms without children)
+		CollectScriptTypesHashes: 6.465ms
+		ReloadNativeAssets: 3.481ms
+		UnloadImportedAssets: 0.378ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.948ms
+		ImportSchedulerStart: 41.193ms
+	PostProcessAllAssets: 3476.768ms
+		AssemblyValidation.PostprocessAllAssets 64.996ms
+		PostprocessAssetsUpdateCachedIcon 46.744ms
+		PostProcessCallbackCreateDeferredMaterials 25.965ms
+		RaytracingShaderImportPostprocess 14.154ms
+		ComputeShaderImportPostprocess 13.859ms
+		ShaderAssetModifiedCallback 12.685ms
+		SpeedTreeImporter.PostprocessAllAssets 11.113ms
+		BlockShaderImporter.PostprocessAllAssets 4.997ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 4.817ms
+		XRBuildSystem.XRAssetImported 0.548ms
+		MonoPostProcessAllAssets: 1622.896ms
+			SyncVS.PostprocessSyncProject 489.414ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 446.534ms
+			AssetPostprocessor.OnPostprocessAllAssets 104.325ms
+			PostProcessor.OnPostprocessAllAssets 103.946ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 91.534ms
+			MaterialPostprocessor.OnPostprocessAllAssets 74.590ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 71.908ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 41.846ms
+			AssetChangedListener.OnPostprocessAllAssets 29.316ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 17.981ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 12.478ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 12.230ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 10.490ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 3.621ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 3.229ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.202ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 1.000ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.761ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.761ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.760ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.693ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.691ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.690ms
+			AssetEvents.OnPostprocessAllAssets 0.495ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.492ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.430ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.425ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.292ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.287ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.280ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.273ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.157ms
+	PostAssetChangesProfiler: 18.153ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.231ms
+	UnloadStreamsBegin: 3.501ms
+	PersistCurrentRevisions: 0.164ms
+	GenerateScriptTypeHashes: 8.882ms
+	GenerateScriptTypeSerializationHashes: 14.249ms
+	Untracked: 27935.069ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            32.398 ms
+	Integration:            490.480 ms
+	Integration of assets:  0.083 ms
+	Thread Wait Time:       -0.000 ms
+	Total Operation Time:   522.960 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Oyun Bitti
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GameManager:EndGame () (at Assets/Kodlama/GameManager.cs:18)
+OyuncuÇarpışma:OnCollisionEnter (UnityEngine.Collision) (at Assets/Kodlama/OyuncuÇarpışma.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Kodlama/GameManager.cs Line: 18)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 29.447300 ms
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            23.519 ms
+	Integration:            549.905 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       25.724 ms
+	Total Operation Time:   599.151 ms
+Unloading 5819 unused Assets / (3.8 MB). Loaded Objects now: 9442.
+Memory consumption went from 0.60 GB to 0.59 GB.
+Total: 44.565100 ms (FindLiveObjects: 1.782700 ms CreateObjectMapping: 4.935500 ms MarkObjects: 31.709400 ms  DeleteObjects: 6.135700 ms)
+
+Asset Pipeline Refresh (id=95d5436d66e27fb4bae957d9a90d3eaa): Total: 0.007 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Refreshing native plugins compatible for Editor in 2.14 ms, found 4 plugins.
+Asset Pipeline Refresh (id=01b092e9f74b81c4e926af33a99bdcf3): Total: 0.149 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 2.0268ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/HP/İlk projem
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 3.1816ms
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            13.454 ms
+	Integration:            479.200 ms
+	Integration of assets:  0.023 ms
+	Thread Wait Time:       0.028 ms
+	Total Operation Time:   492.705 ms
+Unloading 14 unused Assets / (9.2 MB). Loaded Objects now: 9440.
+Memory consumption went from 0.61 GB to 0.60 GB.
+Total: 41.620500 ms (FindLiveObjects: 1.332600 ms CreateObjectMapping: 2.556800 ms MarkObjects: 37.508800 ms  DeleteObjects: 0.219400 ms)
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 141 defines and 360 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 143 defines and 337 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with Library\Bee\artifacts\1900b0aE.dag\Unity.Collections.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Scripting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Managed\UnityEngine\Unity.Scripting.dll
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil.Rocks, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@6bb9aca3ef38\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 3123.2890ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 3121.0460ms
+ExitCode: 0 Duration: 12s
+[720/915    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY       6s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[907/915    8s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets\Kodlama\OyuncuHareketi.cs(27,13): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\Kodlama\Oyuncu├çarp─▒┼şma.cs(12,13): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+[909/915    3s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 141 defines and 360 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[910/915    3s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 143 defines and 337 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[913/915    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[914/915    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+*** Tundra build success (12.07 seconds), 6 items updated, 915 evaluated
+Assets\Kodlama\OyuncuHareketi.cs(27,13): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\Kodlama\OyuncuÇarpışma.cs(12,13): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Reloading assemblies after finishing script compilation.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (4.5 KB). Loaded Objects now: 9413.
+Memory consumption went from 0.59 GB to 0.59 GB.
+Total: 37.551500 ms (FindLiveObjects: 1.509500 ms CreateObjectMapping: 2.695400 ms MarkObjects: 33.210800 ms  DeleteObjects: 0.133500 ms)
+
+Total cache size 135277384
+Total cache size after purge 135277384, took 00:00:00.8705689
+Refreshing native plugins compatible for Editor in 2.90 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.519 seconds
+Domain Reload Profiling: 6066ms
+	BeginReloadAssembly (1752ms)
+		DisableScriptedObjects (308ms)
+		CreateAndSetChildDomain (636ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (102ms)
+	LoadAllAssembliesAndSetupDomain (644ms)
+		LoadAssemblies (206ms)
+		AnalyzeDomain (368ms)
+			TypeCache.Refresh (17ms)
+			BuildScriptInfoCaches (332ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (3521ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (338ms)
+			ProcessInitializeOnLoadAttributes (880ms)
+			ProcessInitializeOnLoadMethodAttributes (286ms)
+			AfterProcessingInitializeOnLoad (13ms)
+		AwakeInstancesAfterBackupRestoration (1116ms)
+
+Asset Pipeline Refresh (id=ae76be12fab689044b1770b2897de764): Total: 6.522 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3788 ms
+		Asset DB Callback time: managed=62 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=2668 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1317, non-scripts=2302
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 3.440ms
+	ApplyChangesToAssetFolders: 0.524ms
+	Collect global state as custom dependencies: 4.798ms
+	ProcessAssetsWithTransientArtifactChanges: 17.830ms
+	CategorizeAssets: 84.086ms
+	CompileScripts: 1.903ms
+	ImportOutOfDateAssets: 3603.388ms (3544.862ms without children)
+		CollectScriptTypesHashes: 2.313ms
+		ReloadNativeAssets: 2.355ms
+		UnloadImportedAssets: 0.444ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.973ms
+		ImportSchedulerStart: 54.632ms
+	PostProcessAllAssets: 62.888ms
+		MonoPostProcessAllAssets: 62.882ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 19.351ms
+			SyncVS.PostprocessSyncProject 15.833ms
+			AssetChangedListener.OnPostprocessAllAssets 6.669ms
+			AssetPostprocessor.OnPostprocessAllAssets 3.925ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.854ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 3.559ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.174ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.839ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.605ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.524ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.271ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.255ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.233ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.074ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.258ms
+	PersistCurrentRevisions: 0.189ms
+	GenerateScriptTypeHashes: 4.524ms
+	GenerateScriptTypeSerializationHashes: 7.488ms
+	Untracked: 2726.655ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=14a41ff05224adf46b961e177dd3e84c): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=b654fcb10fdf5a341baf74afe3b3fca3): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+ArgumentException: Event must be a StateEvent or DeltaStateEvent but is a 
+  at UnityEngine.InputSystem.InputControlExtensions.GetStatePtrFromStateEventUnchecked (UnityEngine.InputSystem.InputControl control, UnityEngine.InputSystem.LowLevel.InputEventPtr eventPtr, UnityEngine.InputSystem.Utilities.FourCC eventType) [0x00065] in .\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Controls\InputControlExtensions.cs:735 
+  at UnityEngine.InputSystem.InputControlExtensions.GetStatePtrFromStateEvent (UnityEngine.InputSystem.InputControl control, UnityEngine.InputSystem.LowLevel.InputEventPtr eventPtr) [0x00022] in .\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Controls\InputControlExtensions.cs:704 
+  at UnityEngine.InputSystem.InputControlExtensions.ReadUnprocessedValueFromEvent[TValue] (UnityEngine.InputSystem.InputControl`1[TValue] control, UnityEngine.InputSystem.LowLevel.InputEventPtr inputEvent, TValue& value) [0x0000e] in .\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Controls\InputControlExtensions.cs:270 
+  at UnityEngine.InputSystem.InputControlExtensions.AccumulateValueInEvent (UnityEngine.InputSystem.InputControl`1[TValue] control, System.Void* currentStatePtr, UnityEngine.InputSystem.LowLevel.InputEventPtr newState) [0x0000e] in .\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Controls\InputControlExtensions.cs:881 
+  at UnityEngine.InputSystem.Mouse.OnStateEvent (UnityEngine.InputSystem.LowLevel.InputEventPtr eventPtr) [0x00000] in .\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Devices\Mouse.cs:343 
+  at UnityEngine.InputSystem.FastMouse.OnStateEvent (UnityEngine.InputSystem.LowLevel.InputEventPtr eventPtr) [0x00018] in .\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Devices\Precompiled\FastMouse.partial.cs:22 
+  at UnityEngine.InputSystem.FastMouse.UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.OnStateEvent (UnityEngine.InputSystem.LowLevel.InputEventPtr eventPtr) [0x00000] in .\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\Devices\Precompiled\FastMouse.partial.cs:49 
+  at UnityEngine.InputSystem.InputManager.OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType updateType, UnityEngine.InputSystem.LowLevel.InputEventBuffer& eventBuffer) [0x00946] in .\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\InputManager.cs:3647 
+  at UnityEngine.InputSystem.LowLevel.NativeInputRuntime+<>c__DisplayClass7_0.<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType updateType, UnityEngineInternal.Input.NativeInputEventBuffer* eventBufferPtr) [0x0001f] in .\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\NativeInputRuntime.cs:65 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*) (at .\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83\InputSystem\NativeInputRuntime.cs:70)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Controls/InputControlExtensions.cs Line: 735)
+
+ArgumentException during event processing of Editor update; resetting event buffer
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:71)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs Line: 71)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+Event in buffer is already marked as handled
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Assert (bool,string)
+UnityEngine.InputSystem.InputManager:OnUpdate (UnityEngine.InputSystem.LowLevel.InputUpdateType,UnityEngine.InputSystem.LowLevel.InputEventBuffer&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs:3250)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/NativeInputRuntime.cs:65)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+
+(Filename: ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/InputManager.cs Line: 3250)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SerializedObject:ApplyModifiedProperties ()
+UnityEditor.PlayerSettingsEditor:OtherSectionConfigurationGUI (UnityEditor.Build.BuildPlatform,UnityEditor.Modules.ISettingEditorExtension)
+UnityEditor.PlayerSettingsEditor:OtherSectionGUI (UnityEditor.Build.BuildPlatform,UnityEditor.Modules.ISettingEditorExtension,int)
+UnityEditor.PlayerSettingsEditor:OnInspectorGUI ()
+UnityEditor.AssetSettingsProvider:OnGUI (string)
+UnityEditor.SettingsWindow:DrawControls ()
+UnityEditor.SettingsWindow:DrawSettingsPanel ()
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPath (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToFocusedElementOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.CommandEventBase`1<UnityEngine.UIElements.ExecuteCommandEvent>:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&)
+UnityEditor.GUIView:Internal_SendEvent (UnityEngine.Event)
+UnityEditor.GUIView:SendEvent (UnityEngine.Event)
+UnityEditor.EditorGUI/PopupCallbackInfo:SetEnumValueDelegate (object,string[],int)
+
+[C:\build\output\unity\unity\Editor\Src\EditorCursor.cpp line 24]
+
+MonoPathRemapper: Attempts to remap: 61493; Successful remaps: 18276
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout C:\Users\HP\İlk projem\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/HP/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+AcceleratorClientConnectionCallback - disconnected - :0
+Importing 'GUID: 00000000000000004000000000000000 - Path: ProjectSettings/ProjectSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000004000000000000000' -> (Import Result ID: '2d2cdf6a79be16bb7b1a4512ae559792') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=276a810dac73e1f29404d5e5f692e214 DependenciesID=b17748a9262a4495dbcd5d95405173d6 StaticDependenciesID=8d61b2778bd321f1f32b79bb47a31a0d 
+Refreshing native plugins compatible for Editor in 4.16 ms, found 4 plugins.
+Asset Pipeline Refresh (id=3f278661965c57140b4068be32a9a913): Total: 0.193 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-HP-6000.5.2-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-HP-6000.5.2 channel disconnected successfully.
+Shut down.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000006BCC, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000006BCC, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 3756
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1787484481113,"processId":9792,"allocatedMemory":52208753,"memoryLabels":[{"Default":212627},{"Permanent":15516},{"NewDelete":68645},{"Thread":4197600},{"Manager":818789},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":854632},{"Material":24},{"GfxDevice":55328},{"Animation":952},{"Audio":1168},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":177888},{"Input":45280},{"JobScheduler":256},{"TextLib":40471},{"Mono":48},{"MonoCode":128},{"ScriptingNativeRuntime":1618932},{"BaseObject":1754091},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":24784},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":9589},{"StaticString":3808},{"Utility":2672906},{"Curl":48},{"PoolAlloc":2360},{"AI":80},{"TypeTree":195548},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":6952},{"WebRequest":14144},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33105120},{"Camera":17},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":896560},{"CoreStats":13688},{"Identifiers":6768},{"Gui":455},{"EditorUtility":295533},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4604427},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":35346},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":176},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3474},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}
+[main 2026-08-23T12:45:15.333Z] update#setState checking for updates
+[main 2026-08-23T12:45:16.081Z] update#setState idle
+[main 2026-08-23T13:45:15.339Z] update#setState checking for updates
+[main 2026-08-23T13:45:15.644Z] update#setState idle
+[main 2026-08-23T14:45:16.635Z] update#setState checking for updates
+[main 2026-08-23T14:45:16.926Z] update#setState idle
+[main 2026-08-23T15:45:16.638Z] update#setState checking for updates
+[main 2026-08-23T15:45:16.950Z] update#setState idle
+[main 2026-08-23T16:45:16.645Z] update#setState checking for updates
+[main 2026-08-23T16:45:16.887Z] update#setState idle
+[main 2026-08-23T17:45:16.660Z] update#setState checking for updates
+[main 2026-08-23T17:45:17.007Z] update#setState idle
+[main 2026-08-23T18:45:16.670Z] update#setState checking for updates
+[main 2026-08-23T18:45:16.946Z] update#setState idle
+[main 2026-08-23T19:45:16.676Z] update#setState checking for updates
+[main 2026-08-23T19:45:16.964Z] update#setState idle
+[main 2026-08-23T20:33:33.791Z] Extension host with pid 5292 exited with code: 0, signal: unknown.
